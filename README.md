@@ -5,3 +5,4 @@ So in most cases in order to reduce the manual work load, one of the relatively 
 
 Now in the other cases most of the labelling tool such as [mention the lablling tools here] accept .json files as the input. As the model inputs .txt files, therefore the conversion of the txt file to the corresponding .json file is required. 
 
+The code that is provided in the repository is to be implemented in google colabs. The python scripts will be done in the coming stages. 
