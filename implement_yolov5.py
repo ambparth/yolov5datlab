@@ -6,8 +6,8 @@ from google.colab import files
 
 #%% This is for setting up the environment as the drives portal itself. Run this only once. THIS IS MAINLY DONE IN THE GOOGLE COLAB ENVIRONMENT !! 
 
-from google.colab import drive
-drive.mount('/content/drive') 
+# from google.colab import drive
+# drive.mount('/content/drive') 
 
 #%% clone the yolov5 model here. Transfer Learning approach. 
 !git clone https://github.com/ultralytics/yolov5
@@ -15,26 +15,20 @@ drive.mount('/content/drive')
   
 #%% install the requirements for the model and also the repo file path is set. Run this only once. 
 !pip install -r yolov5/requirements.txt # for running the file once. 
-!cd /content/yolov5
+!cd 'path to yolov5 directory'
 
 #%% this is for running and finding out the list of arguments in the code
 !python /content/yolov5/detect.py -h
 
 # single line code for converting the source and the weight and saving the results in the .txt file. 
-!python /content/yolov5/detect.py --source /content/drive/MyDrive/test/ --weights yolov5s.pt --conf 0.25  --save-txt --save-conf --save-crop 
+!python 'path to the detect.py file' --source '/the directory of the file/' --weights 'pretrained_weights' --conf 0.25  --save-txt --save-conf --save-crop 
 # run the above code with the pretrained weights of the same size, and with thresholds. 
-
-
-
-
-
-
 
 #%% Conversion of the text file to the json file is done here. 
 
-file_path = '/content/yolov5/runs/detect/exp2/labels/'
+file_path = 'THE DIRECTORY OF THE SAVED IMAGE FILES'
 
-destination_folder = '/content/yolov5/runs/detect/json/'
+destination_folder = 'THE DIRECTORY TO SAVE THE .json FILES'
 
 #os.mkdir(destination_folder);  #uncomment this folder once you run this cell. Even if the output gives an error. 
 dict1 = {}
