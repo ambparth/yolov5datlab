@@ -1,2 +1,2 @@
 # Implementation of YOLOv5 on Custom datasets
-A direct implementation of YOLOv5 for the custom datasets. 
+This is an implementation of the YOLOv5 model on the custom datasets as implemented by @ultralytics
