@@ -15,3 +15,8 @@ This step would be required to make the image size compactible to that of the mo
  
 ### Transfer Learning
 Once the frames are resized, the other processing stage is using the transfer learning approach to detect the different objects in the frame. This is the point where the bounding box are drawn by the model and not down manually. The result of the bounding boxes especially the coordinates and also the labels are saved in the relavant text file. The model is trained on a COCO datasets that contains upto 80 classes, further the resized frames can be concatenated with the text files together in a separate file whose analysis can be done using the Data-Labeling toolkit. 
+
+The YOLOv5 model can be clone from the following link. https://github.com/ultralytics/yolov5.git 
+
+Similarly the LabelImg data labeling toolkit can be cloned from the following link. https://github.com/heartexlabs/labelImg.git
+
