@@ -1,6 +1,8 @@
+#%% IMPORT THE REQUIRED LIBRARIES HERE. 
 import os 
 import cv2
 
+#%% PART 1: PARTITION INTO FRAMES
 os.mkdir('/SAVED/PATH/')
 KPS = 1
 VIDEO_PATH = "/VIDEO/PATH/" 
@@ -25,3 +27,5 @@ while(True):
         i+=1
     curr_frame += 1  
 cap.release() 
+
+#%% TRANSFER LEARNING; YOLOv5 trained on COCO Datasets
