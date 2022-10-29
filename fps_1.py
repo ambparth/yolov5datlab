@@ -28,4 +28,4 @@ while(True):
     curr_frame += 1  
 cap.release() 
 
-#%% TRANSFER LEARNING; YOLOv5 trained on COCO Datasets
+#%% PART2; TRANSFER LEARNING
