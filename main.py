@@ -29,3 +29,5 @@ while(True):
 cap.release() 
 
 #%% PART2; TRANSFER LEARNING
+
+!python <PATH OF THE detect.py file>  --weights yolov5s.pt --source <PATH/OF/FRAMES/> --conf-thres <THRESH> --save-txt
