@@ -27,3 +27,4 @@ The reformatted and the resize frames and the detection of the objects using the
 Further, the path where the labels are saved that is the .txt files will be known and the extracted frames and the labels have to be copied to single folder for further semi-manual labeling. 
 > python comb.py
  
+Further this folder can be used to label the data using different toolkits such as LabelImg, LabelBox, VGG-annotator, etc. 
