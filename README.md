@@ -20,3 +20,6 @@ The YOLOv5 model can be cloned from the following link. https://github.com/ultra
 
 Similarly the LabelImg data labeling toolkit can be cloned from the following link. https://github.com/heartexlabs/labelImg.git
 
+## Implementation of the Code
+The reformatted and the resize frames and the detection of the objects using the Transfer Learning can be implemented by running the function code: 
+> python 
