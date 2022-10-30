@@ -22,4 +22,8 @@ Similarly the LabelImg data labeling toolkit can be cloned from the following li
 
 ## Implementation of the Code
 The reformatted and the resize frames and the detection of the objects using the Transfer Learning can be implemented by running the function code: 
-> python 
+> python main.py
+
+Further, the path where the labels are saved that is the .txt files will be known and the extracted frames and the labels have to be copied to single folder for further semi-manual labeling. 
+> python comb.py
+ 
