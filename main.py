@@ -22,7 +22,7 @@ while(True):
     if not ret: break 
     if curr_frame % hop == 0: 
         print([curr_frame,i]); 
-        name = IMAGE_PATH + "" + str(i) + EXTENSION 
+        name = IMAGE_PATH + "/" + str(i) + EXTENSION 
         cv2.imwrite(name, frame) 
         i+=1
     curr_frame += 1  
